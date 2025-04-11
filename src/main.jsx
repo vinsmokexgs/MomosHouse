@@ -8,15 +8,15 @@ import { Auth0Provider } from '@auth0/auth0-react';
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <CartProvider>
-      <Auth0Provider
-        domain="dev-r4q0pngied32ghxj.us.auth0.com"
-        clientId="lWvWBCmBGV16p0LpVA9DcBfUolNCAu6q"
-        authorizationParams={{
-          redirect_uri: window.location.origin,
-        }}
-      >
-        <App />
-      </Auth0Provider>
+    <Auth0Provider
+    domain="dev-r4q0pngied32ghxj.us.auth0.com"
+    clientId="aF20iDEV3If4AkehE28kPQFWMvC3cgVU"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}
+  >
+    <App />
+  </Auth0Provider>,
     </CartProvider>
   </BrowserRouter>
 );

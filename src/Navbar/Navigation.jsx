@@ -60,7 +60,7 @@ function Navigation() {
         </NavLink>
 
         <NavLink
-          className="bg-amber-500 rounded-2xl  text-white p-x3 "
+          className="bg-orange-700 rounded-3xl  text-white  "
           to="/contact"
         >
           Contact Us

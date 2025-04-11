@@ -10,7 +10,6 @@ import NavigationToMenu from "../Components/NavigationToMenu";
 import Quality from "../assets/Home/Quality.png";
 import Chef from "../assets/Home/Chef.png";
 import Party from "../assets/Home/party.png";
-import Image from "../assets/Home/Image.png";
 
 function Home() {
   const [recipes, setrecipes] = useState([]);

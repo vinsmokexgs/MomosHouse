@@ -66,9 +66,9 @@ function Navigation() {
           Contact Us
         </NavLink>
         <NavLink
-          className="bg-amber-500 rounded-2xl  text-white p-x3 "
+          className= " "
           to="/profile"
-        >profile 
+        > 
           <img className="h-7 rounded-full" src={User?.picture} alt="" />
         </NavLink>
         

@@ -269,103 +269,142 @@ function Home() {
             </div>
           </div>
         </div>
+        <div>
+          <div className="flex flex-col justify-center items-center mt-20 mb-4">
+            <h1 className="text-2xl font-bold"><span className="text-orange-600">Get</span> In Touch</h1>
+            <p className="text-teal-800  text-xl font-bold mt-2 mb-4">Our Friendly team would love to hear from you</p>
 
-        <div className=" border-2 border-black grid  ">
-        <div className=" ml-60">
-          <form className="space-y-4">
-            <div className="flex flex-col md:flex-row md:space-x-4">
-              <div className="flex flex-col w-full">
-                <label htmlFor="fname" className="text-sm font-medium">
-                  First Name
-                </label>
-                <input
-                  type="text"
-                  id="fname"
-                  name="fname"
-                  className="border-2 border-teal-800 rounded-md p-2"
-                  placeholder="Enter your first name"
-                />
+          </div>
+          <div className=" flex h-[550px] px-40 mr-50" >
+            <div className=" bg-teal-800 text-white p-6 rounded-xl w-72 h-[560px] text-left max-w-md mx-auto space-y-6">
+              <div>
+                <h3 className="flex items-center gap-2 text-lg font-semibold">
+                  <FaMapMarkerAlt /> Our Address
+                </h3>
+                <p className="italic text-sm mt-4">New Baneshwor, Kathmandu, Bagmati,<br /> Nepal</p>
               </div>
-              <div className="flex flex-col w-full">
-                <label htmlFor="lname" className="text-sm font-medium">
-                  Last Name
-                </label>
-                <input
-                  type="text"
-                  id="lname"
-                  name="lname"
-                  className="border-2 border-teal-800 rounded-md p-2"
-                  placeholder="Enter your last name"
-                />
+              <div>
+                <h3 className="flex items-center gap-2 text-lg font-semibold">
+                  <FaPhone /> Our Contacts
+                </h3>
+                <div className="text-sm flex mt-4">
+                  <p><strong>Mobile:</strong> <br /> 980 5689789 <br /> 9841 275897</p>
+                  <p><strong className="ml-10"> Landline:</strong> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;01-4783972</p>
+                </div>
+              </div>
+              <div>
+                <h3 className="flex items-center gap-2 text-lg font-semibold">
+                  <FaClock /> Our Service Time
+                </h3>
+                <div className="text-sm flex mt-4">
+                  <p><strong>MON - FRI:</strong>  <br />10 am - 8 pm</p>
+                  <p><strong className="ml-10">SAT - SUN:</strong><p className="ml-10"> Closed</p> </p>
+                </div>
+              </div>
+              <div className="text-left ">
+                <p className="italic items-center justify-center text-sm mt-16">Get in touch in social networks</p>
+                <div className="flex gap-4 mt-4 text-xl">
+                  <FaFacebook className="cursor-pointer hover:text-gray-300" />
+                  <FaInstagram className="cursor-pointer hover:text-gray-300" />
+                  <FaTiktok className="cursor-pointer hover:text-gray-300" />
+                </div>
               </div>
             </div>
+            <div className="">
+              <form className="ml-5 mt-5 text-left">
+                <div className="flex gap-10 ">
+                  <div>
+                    <label className="block  mb-1 " htmlFor="firstName">
+                      First Name
+                    </label>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      placeholder="Enter your first name"
+                      className=" p-2 border-2 border-teal-800 rounded w-35"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block  mb-1" htmlFor="lastName">
+                      Last Name
+                    </label>
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      placeholder="Enter your last name"
+                      className=" p-2 border-2 border-teal-800 rounded w-35"
+                      required
+                    />
+                  </div>
+                </div>
 
-            <div>
-              <label htmlFor="query" className="text-sm font-medium">
-                What can we do for you?
-              </label>
-              <select
-                id="query"
-                name="query"
-                className="border-2 border-teal-800 rounded-md p-2 w-full"
-              >
-                <option value="">Choose</option>
-                <option value="support">Support</option>
-                <option value="sales">Sales</option>
-                <option value="feedback">Feedback</option>
-              </select>
-            </div>
+                <div>
+                  <label className="block mb-1" htmlFor="purpose">
+                    What Can We Do For You?
+                  </label>
+                  <input
+                    type="text"
+                    id="purpose"
+                    name="purpose"
+                    placeholder="Enter your purpose"
+                    className=" w-full p-2 border-2 border-teal-800 rounded"
+                  />
+                </div>
 
-            <div>
-              <label htmlFor="email" className="text-sm font-medium">
-                Email Address
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="border-2 border-teal-800 rounded-md p-2 w-full"
-                placeholder="Enter your email"
-              />
-            </div>
+                <div>
+                  <label className="block mb-1" htmlFor="email">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    className="w-full p-2 border-2 border-teal-800 rounded"
+                    required
+                  />
+                </div>
 
-            <div>
-              <label htmlFor="phone" className="text-sm font-medium">
-                Phone Number
-              </label>
-              <input
-                type="text"
-                id="phone"
-                name="phone"
-                className="border-2 border-teal-800 rounded-md p-2 w-full"
-                placeholder="Enter your phone number"
-              />
-            </div>
+                <div>
+                  <label className="block mb-1" htmlFor="phone">
+                    Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    className="w-full p-2 border-2 border-teal-800 rounded"
+                  />
+                </div>
 
-            <div>
-              <label htmlFor="message" className="text-sm font-medium">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                className="border-2 border-teal-800 rounded-md p-2 w-full"
-                placeholder="Write your message here"
-              ></textarea>
-            </div>
+                <div>
+                  <label className="block  mb-1" htmlFor="message">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Enter your message"
+                    className="w-full h-24 p-2 border-2 border-teal-800 rounded"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
 
-            <div className="flex justify-center">
-              <button
-                type="submit"
-                className="bg-orange-600 text-white py-2 px-6 rounded-full hover:bg-orange-700"
-              >
-                Send Message
-              </button>
+
+                <button className="bg-orange-500 mt-5 hover:bg-orange-600 p-4
+             flex items-center gap-x-2   text-white rounded-full"> Send Message</button>
+
+              </form>
             </div>
-          </form>
           </div>
         </div>
+
+        
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.481059204379!2d85.34317037525248!3d27.67152297620314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190536c1caa7%3A0xf92fcf603dac3960!2sSipalaya%20Info%20Tech%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1743051090798!5m2!1sen!2snp"

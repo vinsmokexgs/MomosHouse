@@ -40,7 +40,13 @@ function Navigation() {
           <BsCart4 size={28} />
         </NavLink>
         {isAuthenticated ? (
-          <button>logout</button>
+          <button
+            // onClick={() => {
+              // logout();
+            // }}
+          >
+            logout
+          </button>
         ) : (
           <NavLink to="/login">Login</NavLink>
         )}

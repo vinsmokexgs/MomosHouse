@@ -4,7 +4,7 @@ function Success() {
   let val = searchParams.get("data");
   let info = atob(val);
   info = JSON.parse(info);
-  console.log(info);
+  //console.log(info);
 
   return (
     <div className="pt-20">

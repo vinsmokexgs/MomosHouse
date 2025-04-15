@@ -10,8 +10,8 @@ import { CartContext } from "../Context/CartProvider";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Navigation() {
-   const {User, logout, isAuthenticated} = useAuth0();
-   console.log(isAuthenticated)
+  const { user, logout, isAuthenticated } = useAuth0();
+  console.log(isAuthenticated);
 
   const { state } = useContext(CartContext);
 
@@ -39,11 +39,15 @@ function Navigation() {
           </span>
           <BsCart4 size={28} />
         </NavLink>
-        {isAuthenticated ?(
-          <button onClick={()=>{
-            logout();
-          }}>logout</button>
-        ):(
+        {isAuthenticated ? (
+          <button
+            onClick={() => {
+              logout();
+            }}
+          >
+            logout
+          </button>
+        ) : (
           <NavLink to="/login">Login</NavLink>
         )}
       </div>
@@ -65,13 +69,12 @@ function Navigation() {
         >
           Contact Us
         </NavLink>
-        <NavLink
-          className= " "
-          to="/profile"
-        > 
-          <img className="h-7 rounded-full" src={User?.picture} alt="" />
-        </NavLink>
-        
+
+        {isAuthenticated && (
+          <NavLink className=" " to="/profile">
+            <img className="h-7 rounded-full" src={user?.picture} alt="" />
+          </NavLink>
+        )}
       </div>
     </div>
   );

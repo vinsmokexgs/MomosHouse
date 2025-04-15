@@ -10,8 +10,8 @@ import { CartContext } from "../Context/CartProvider";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Navigation() {
-  const { user, logout, isAuthenticated } = useAuth0();
-  console.log(isAuthenticated);
+  const { user, isAuthenticated } = useAuth0();
+  console.log(isAuthenticated, user);
 
   const { state } = useContext(CartContext);
 

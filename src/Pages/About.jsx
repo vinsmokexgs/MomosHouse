@@ -41,7 +41,7 @@ function About() {
       </div>
       <br /> <br />
       <div className=" border-2 ">
-        <img className=" w-auto" src={Video}></img>{" "}
+        <img className=" w-[100%]" src={Video}></img>{" "}
       </div>
       <br /> <br />
       <div className=" border-2 border-amber-600 ">

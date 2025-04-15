@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 function ProtectedRoutes({ components }) {
   const { isAuthenticated, isLoading } = useAuth0();
+
+  console.log(isAuthenticated ,isLoading)
   const navigate = useNavigate();
 
   useEffect(() => {

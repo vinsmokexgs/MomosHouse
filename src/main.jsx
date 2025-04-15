@@ -3,20 +3,21 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { CartProvider } from "./Context/CartProvider.jsx";
-import { Auth0Provider } from '@auth0/auth0-react';
+import { Auth0Provider } from "@auth0/auth0-react";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <CartProvider>
     <Auth0Provider
     domain="dev-r4q0pngied32ghxj.us.auth0.com"
-    clientId="aF20iDEV3If4AkehE28kPQFWMvC3cgVU"
+    clientId="zHnOFYuLcyc2h759aaavvTUOtqQc0IDt"
     authorizationParams={{
       redirect_uri: window.location.origin
     }}
   >
     <App />
-  </Auth0Provider>,
+  </Auth0Provider>
+      
     </CartProvider>
   </BrowserRouter>
 );

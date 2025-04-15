@@ -41,9 +41,9 @@ function Navigation() {
         </NavLink>
         {isAuthenticated ? (
           <button
-            // onClick={() => {
-              // logout();
-            // }}
+          // onClick={() => {
+          // logout();
+          // }}
           >
             logout
           </button>

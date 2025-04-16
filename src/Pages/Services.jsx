@@ -3,7 +3,7 @@ import Video2 from "../assets/Home/Video2.png";
 import Party from "../assets/Home/Party.png";
 import Sacn from "../assets/Home/Sacn.png";
 import Pparty from "../assets/Home/Pparty.png";
-import Party from "../assets/Home/Party.png"
+import party from "../assets/Home/party.png"
 import Chef from "../assets/Home/Chef.png";
 import NavigateToContact from "../Components/NavigateToContact";
 
@@ -31,7 +31,7 @@ const Services = () => {
       <div>
         <div className='flex items-center pl-10 ml-50 mr-20 mt-20 gap-40'>
           <div className=' '>
-            <img src={Party} />
+            <img src={party} />
             <p className="text-3xl text-black-800 font-bold">Private Party </p><br />
             <p className=' text-gray-500'>Lorem ipsum dolor sit, amet consectetur adipisicing<br /> elit. Est, dolore pariatur quis<br /> voluptatum ab laboriosam nostrum quod<br /> officia obcaecati quae explicabo velit id.</p><br />
             <h1 className='  text-2xl font-bold'><span className='text-teal-800'>Scan the QR Code. </span><br />

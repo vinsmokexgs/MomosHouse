@@ -1,9 +1,9 @@
 import Uuncle from "../assets/Home/Uuncle.png";
 import Video2 from "../assets/Home/Video2.png";
+import Party from "../assets/Home/Party.png";
+import Sacn from "../assets/Home/Sacn.png";
 import Pparty from "../assets/Home/Pparty.png";
-import QR from "../assets/Home/QR.png";
-import Group from "../assets/Home/Group.png";
-import Cap from "../assets/Home/Cap.png";
+import Chef from "../assets/Home/Cheif.png";
 import NavigateToContact from "../Components/NavigateToContact";
 
 const Services = () => {
@@ -30,7 +30,7 @@ const Services = () => {
       <div>
         <div className='flex items-center pl-10 ml-50 mr-20 mt-20 gap-40'>
           <div className=' '>
-            <img src={Pparty} />
+            <img src={Party} />
             <p className="text-3xl text-black-800 font-bold">Private Party </p><br />
             <p className=' text-gray-500'>Lorem ipsum dolor sit, amet consectetur adipisicing<br /> elit. Est, dolore pariatur quis<br /> voluptatum ab laboriosam nostrum quod<br /> officia obcaecati quae explicabo velit id.</p><br />
             <h1 className='  text-2xl font-bold'><span className='text-teal-800'>Scan the QR Code. </span><br />
@@ -49,15 +49,15 @@ const Services = () => {
 
       <div className='flex items-center pl-10  ml-50 mr-20 mt-10 gap-40'>
         <div className="h-[20%]  flex items-center justify-end">
-          <img src={Group} />
+          <img src={Pparty} />
         </div>
         <div className=''>
-          <img src={Cap} />
+          <img src={Chef} />
           <p className="text-3xl text-black-800 font-bold">Catering</p><br />
           <p className=' text-gray-500'>Lorem ipsum dolor sit, amet consectetur adipisicing<br /> elit. Est, dolore pariatur quis<br /> voluptatum ab laboriosam nostrum quod<br /> officia obcaecati quae explicabo velit id.</p><br />
           <h1 className='  text-2xl font-bold'><span className='text-teal-800'>Scan the QR Code. </span><br />
             <p className=' font-thin text-gray-500'>You can also check about the service. </p>
-            <img src={QR} className='pl-[68%] relative bottom-20' />
+            <img src={Sacn} className='pl-[68%] relative bottom-20' />
           </h1>
         </div>
       </div>

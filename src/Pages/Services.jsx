@@ -3,6 +3,7 @@ import Video2 from "../assets/Home/Video2.png";
 import Party from "../assets/Home/Party.png";
 import Sacn from "../assets/Home/Sacn.png";
 import Pparty from "../assets/Home/Pparty.png";
+import Party from "../assets/Home/Party.png"
 import Chef from "../assets/Home/Chef.png";
 import NavigateToContact from "../Components/NavigateToContact";
 
@@ -49,7 +50,7 @@ const Services = () => {
 
       <div className='flex items-center pl-10  ml-50 mr-20 mt-10 gap-40'>
         <div className="h-[20%]  flex items-center justify-end">
-          <img src={Pparty} />
+          <img src={Party} />
         </div>
         <div className=''>
           <img src={Chef} />

@@ -10,6 +10,7 @@ import NavigationToMenu from "../Components/NavigationToMenu";
 import Quality from "../assets/Home/Quality.png";
 import Chef from "../assets/Home/Chef.png";
 import Party from "../assets/Home/party.png";
+import image from "../assets/Home/image.png"
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
@@ -219,7 +220,7 @@ function Home() {
               Service They Want{" "}
             </h1>
           </div>
-          <img className="inline-block w- autofill: mt-2" src={Image} />
+          <img className="inline-block w- autofill: mt-2" src={image} />
           <br></br>
           <br /> <br />
           <div className="  flex justify-center items-center gap-10">

@@ -1,9 +1,9 @@
 import Uuncle from "../assets/Home/Uuncle.png";
 import Video2 from "../assets/Home/Video2.png";
-import Party from "../assets/Home/Party.png";
+// import Party from "../assets/Home/Party.png";
 import Sacn from "../assets/Home/Sacn.png";
-import Pparty from "../assets/Home/Pparty.png"
-import party from "../assets/Home/party.png"
+// import Pparty from "../assets/Home/Pparty.png"
+// import party from "../assets/Home/party.png"
 import Chef from "../assets/Home/Chef.png";
 import NavigateToContact from "../Components/NavigateToContact";
 
@@ -31,7 +31,7 @@ const Services = () => {
       <div>
         <div className='flex items-center pl-10 ml-50 mr-20 mt-20 gap-40'>
           <div className=' '>
-            <img src={party} />
+            {/* <img src={party} /> */}
             <p className="text-3xl text-black-800 font-bold">Private Party </p><br />
             <p className=' text-gray-500'>Lorem ipsum dolor sit, amet consectetur adipisicing<br /> elit. Est, dolore pariatur quis<br /> voluptatum ab laboriosam nostrum quod<br /> officia obcaecati quae explicabo velit id.</p><br />
             <h1 className='  text-2xl font-bold'><span className='text-teal-800'>Scan the QR Code. </span><br />
@@ -42,7 +42,7 @@ const Services = () => {
           </div>
           <div className='flex items-center '>
             <div className="h-[20%]  flex items-center justify-end">
-              <img src={Pparty} />
+              {/* <img src={Pparty} /> */}
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Services = () => {
 
       <div className='flex items-center pl-10  ml-50 mr-20 mt-10 gap-40'>
         <div className="h-[20%]  flex items-center justify-end">
-          <img src={Party} />
+          {/* <img src={Party} /> */}
         </div>
         <div className=''>
           <img src={Chef} />

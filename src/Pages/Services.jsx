@@ -3,7 +3,7 @@ import Video2 from "../assets/Home/Video2.png";
 import Party from "../assets/Home/Party.png";
 import Sacn from "../assets/Home/Sacn.png";
 import Pparty from "../assets/Home/Pparty.png";
-import Chef from "../assets/Home/Cheif.png";
+import Chef from "../assets/Home/Chef.png";
 import NavigateToContact from "../Components/NavigateToContact";
 
 const Services = () => {

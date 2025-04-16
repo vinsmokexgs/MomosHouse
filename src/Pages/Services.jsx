@@ -49,7 +49,7 @@ const Services = () => {
 
       <div className='flex items-center pl-10  ml-50 mr-20 mt-10 gap-40'>
         <div className="h-[20%]  flex items-center justify-end">
-          <img src={Party} />
+          <img src={party} />
         </div>
         <div className=''>
           <img src={Chef} />

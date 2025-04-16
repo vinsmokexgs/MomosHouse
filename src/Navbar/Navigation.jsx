@@ -20,10 +20,11 @@ function Navigation() {
   }, 0);
 
   return (
-    <div className=" border-2 flex justify-between ju  items-center gap-3   ">
-      <div className=" flex items-center">
+    <div className=" border-2 flex justify-between items-center gap-3   ">
+      <div className=" flex items-center ml-7">
         <img src={momologo} alt="" />
-        <NavLink to="/"> Momos</NavLink>
+        <h1 className=" font-bold">
+        <NavLink to="/"> Momos</NavLink></h1>
       </div>
       <div className=" flex justify-between gap-3 ">
         <NavLink to="/about">About Us</NavLink>
